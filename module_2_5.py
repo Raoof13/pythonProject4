@@ -1,8 +1,11 @@
 
 def get_matrix(n, m, value):
     matrix = []
-    for string_ in range(n):
-        matrix.append(n)
-        n += 0
-        for m in range
-
+    for i in range(n):
+        string_ = []
+        matrix.append(string_)
+        for j in range(m):
+            string_.append(value)
+    return matrix
+result = get_matrix(2,2,10)
+print(result)
