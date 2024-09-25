@@ -3,9 +3,7 @@ def get_matrix(n, m, value):
     matrix = []
     for i in range(n):
         string_ = []
-        if m <= 0:
-            continue
-        elif value <= 0:
+        if m <= 0 or value <= 0:
             continue
         matrix.append(string_)
         for j in range(m):
