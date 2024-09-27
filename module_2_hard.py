@@ -11,4 +11,5 @@ def adventures(x):
 x = int(input("Число камня первого поля: "))
 
 ciphr = adventures(x)
+
 print(ciphr)
